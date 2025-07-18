@@ -370,6 +370,77 @@ For every module, include:
 - "Submit feedback: 'Add more GST examples.' Update scheduled for next release."
 - "New feature alert: Customizable study plans based on user feedback. Try it in the dashboard."
 
+## Comprehensive Elaboration of Accounting Rules by Section
+
+### Blah Blah Basics (Theoretical Framework)
+- **Accounting Equation Rule:** Assets = Liabilities + Capital. Every transaction must keep this equation balanced.
+- **Golden Rules of Accounting:**
+  - Personal Account: Debit the receiver, Credit the giver.
+  - Real Account: Debit what comes in, Credit what goes out.
+  - Nominal Account: Debit all expenses and losses, Credit all incomes and gains.
+- **Qualitative Characteristics:** Reliability, relevance, comparability, understandability.
+- **Principle of Consistency:** Same accounting methods must be used from period to period.
+
+### Tighten the Screws (Accounting Process)
+- **Journal Entry Rules:**
+  - Every transaction must be recorded with a date, accounts affected, amounts, and narration.
+  - Debit and credit amounts must always be equal.
+- **Subsidiary Books:**
+  - Cash Book: Only cash and bank transactions are recorded.
+  - Purchases/Sales Books: Only credit purchases/sales of goods are recorded.
+- **Ledger Posting:**
+  - Each journal entry must be posted to the respective ledger accounts.
+  - Balancing: The difference between debit and credit sides is carried forward.
+
+### Big Yikes (Ledger, Trial Balance, Error Rectification, Bank Reconciliation, Depreciation, Financial Statements)
+- **Trial Balance Rule:**
+  - All ledger balances are transferred; total debits must equal total credits.
+- **Error Rectification:**
+  - Errors must be classified (errors of omission, commission, principle, compensating).
+  - Rectification entries must be passed to correct errors.
+- **Bank Reconciliation:**
+  - Compare cash book and pass book balances; adjust for outstanding cheques, deposits, bank charges, etc.
+- **Depreciation:**
+  - Apply correct method (SLM/WDV); depreciation must be charged annually.
+- **Financial Statements:**
+  - Trading Account: Only direct incomes/expenses.
+  - Profit & Loss Account: Only indirect incomes/expenses.
+  - Balance Sheet: Assets and liabilities must be classified and marshalled as per CBSE format.
+
+### The Real Grind (Class 12)
+#### PartnerPanic (Partnership Accounts)
+- **Partnership Deed:** Rules for profit sharing, interest on capital/drawings, salary, commission.
+- **Goodwill Calculation:** Use prescribed methods; goodwill must be adjusted on admission, retirement, death.
+- **Revaluation Account:** All assets/liabilities revalued at change in partnership.
+- **Dissolution:** Realisation account must be prepared; assets/liabilities settled as per agreement.
+
+#### ShareSpinner (Company Accounts)
+- **Share Issue:** Shares can be issued at par, premium, or discount; follow Companies Act rules.
+- **Forfeiture & Re-issue:** Forfeited shares must be properly accounted; re-issue cannot exceed the amount forfeited.
+- **Debenture Issue:** Debentures can be issued at par, premium, or discount; interest must be calculated and paid as per terms.
+- **Financial Statements:** Must comply with Schedule III of Companies Act; vertical format required.
+
+#### RatioRazer (Financial Analysis)
+- **Comparative/Common Size Statements:** Use correct base year and percentage calculations.
+- **Ratio Analysis:**
+  - Liquidity Ratios: Current Ratio, Quick Ratio.
+  - Solvency Ratios: Debt-Equity Ratio, Proprietary Ratio.
+  - Activity Ratios: Inventory Turnover, Debtors Turnover.
+  - Profitability Ratios: Gross Profit Ratio, Net Profit Ratio.
+  - All ratios must be calculated as per CBSE formulas and interpreted correctly.
+
+#### YeetMaster (Cash Flow Statement)
+- **Indirect Method:** Start with net profit, adjust for non-cash and non-operating items.
+- **Classification:** All cash flows must be classified as Operating, Investing, or Financing.
+- **Reconciliation:** Closing cash/bank balance must match the cash flow statement.
+
+#### AdjustMania (Adjustments)
+- **Adjustments:**
+  - Outstanding/Prepaid Expenses: Must be shown in final accounts as per accrual principle.
+  - Accrued/Received in Advance Income: Properly adjusted in P&L and Balance Sheet.
+  - Depreciation, Bad Debts, Provisions: Must be charged and shown as per CBSE rules.
+  - Interest, Commission: Calculated and adjusted as per agreement or CBSE guidelines.
+
 ---
 
 FudgeMaster is committed to providing an inclusive, engaging, and effective learning environment for all CBSE Class 11 and 12 Accountancy students. Through continuous updates, user feedback integration, and adherence to educational best practices, FudgeMaster will remain at the forefront of digital accountancy education.
