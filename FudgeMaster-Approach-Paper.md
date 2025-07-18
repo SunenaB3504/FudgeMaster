@@ -1,5 +1,8 @@
 # FudgeMaster: Detailed Approach Paper (CBSE Accountancy Alignment)
 
+# Executive Summary
+FudgeMaster is a gamified, interactive web app for CBSE Class 11 and 12 Accountancy, designed to maximize exam readiness and conceptual mastery through adaptive feedback, mind map navigation, and engaging features.
+
 ## 1. Introduction
 FudgeMaster is an interactive, gamified web app designed for CBSE Class 11 and 12 Accountancy. It uses mind map navigation, voiceover, and chatbot features to make learning engaging and exam-focused.
 
@@ -131,14 +134,65 @@ FudgeMaster is an interactive, gamified web app designed for CBSE Class 11 and 1
 - **Custom Transaction Simulation:** Allow students to input their own set of transactions for a hypothetical sole proprietorship. Automatically generate all books (Journal, Ledger, Trial Balance, Financial Statements) and statements based on their data.
 - **Visualizations:** Present expenses and incomes using pie charts, bar diagrams, and other visuals as per CBSE syllabus, helping students analyze and interpret their results interactively.
 
-## 6. Technical Approach
+## 6. Custom Transaction Simulation Exercise
+
+This feature enables students to input accounting entries for any given transaction and receive instant validation and feedback. The system guides students through all accounting stages—Journal, Ledger, Trial Balance, and Financial Statements—checking correctness and providing rules and explanations for each entry.
+
+### Workflow
+- Student is presented with a transaction scenario and enters the accounting entry at any stage.
+- The system validates the entry for format, accounts, amounts, and CBSE compliance.
+- If correct, the student progresses to the next stage (e.g., Journal to Ledger).
+- If incorrect, the system highlights errors, explains rules, and offers corrections.
+- The system may prompt students to prepare subsequent statements (e.g., from Trial Balance to P&L Account).
+
+### Features
+- Accept entries at any stage (Journal, Ledger, Trial Balance, Financial Statements)
+- Real-time validation and feedback
+- Display relevant accounting rules and explanations for errors
+- Adaptive hints and step-by-step guidance
+- Option to retry or view correct solution
+
+### Example Exercise
+- Scenario: "Paid rent ₹5,000 by cheque."
+  - Student enters Journal entry:
+    - Rent A/c Dr. ₹5,000
+    - To Bank A/c ₹5,000
+  - System checks for correct accounts, amounts, narration, and CBSE format
+  - If correct, prompt to post to Ledger; if incorrect, show error and rule (e.g., "Every Journal entry must have a narration.")
+- Progression: System displays updated Ledger, student prepares Trial Balance, and continues to next steps with validation at each stage.
+
+### Learning Outcomes
+- Mastery of accounting entry stages and formats
+- Understanding of rules and validations at each stage
+- Improved exam readiness through adaptive feedback and correction
+
+This exercise is integrated into FudgeMaster for hands-on practice and conceptual clarity.
+
+## 7. Old Question Paper Review
+
+To further enhance exam readiness, FudgeMaster integrates a dedicated module for reviewing previous years’ CBSE board question papers. This feature allows students to:
+
+- Access a curated set of past question papers for Class 12 Accountancy.
+- Attempt questions in a simulated exam environment.
+- Receive instant feedback, marking schemes, and detailed solutions.
+- Analyze common patterns, frequently asked topics, and marking trends.
+- Track performance and identify weak areas for targeted revision.
+
+This module supports:
+- Practice with both objective and subjective questions.
+- Time management strategies and answer presentation tips.
+- Adaptive recommendations for further study based on performance.
+
+Incorporating old question paper review ensures students are familiar with exam formats, question styles, and can confidently approach board examinations.
+
+## 8. Technical Approach
 - **Frontend:** HTML, JS, CSS (responsive, desktop/laptop priority)
 - **Backend:** PostgreSQL (open-source, cloud-hosted)
 - **User Management:** Registration, login, progress tracking
 - **Data Security:** Secure authentication, encrypted transfer
 - **Compliance:** Strict CBSE formats, terminology, rules
 
-## 7. Table Formats & Rules (Updated)
+## 9. Table Formats & Rules (Updated)
 
 Below are the standardized formats for key accounting books and statements, as per CBSE and practical usage:
 
@@ -181,13 +235,22 @@ Below are the standardized formats for key accounting books and statements, as p
 ---
 All formats above are strictly aligned with CBSE requirements and practical accounting standards. Use these templates for all book-keeping, practice, and exam preparation activities.
 
-## 8. Engagement & Accessibility
+## 10. Engagement & Accessibility
 - Gamification: XP, badges, progress bars
 - Voiceover: All content accessible via audio
 - Chatbot: "Teach me" and "Ask me" modes
 - Accessibility: Keyboard navigation, color contrast, mobile/desktop support
 
-## 9. Summary
+## 11. Adaptive Feedback
+- The system analyzes quiz and exercise results to personalize revision paths.
+- Feedback messages highlight weak areas and suggest targeted resources.
+- Example: "You missed key questions on Trial Balance. Review the Ledger & Trial Balance module and try the practice quiz again."
+
+## 12. Continuous Improvement
+- Users can submit feedback and report issues directly in the app.
+- Regular updates planned to align with CBSE syllabus changes and user suggestions.
+
+## 13. Summary
 FudgeMaster will deliver a CBSE-aligned, interactive, and engaging accountancy learning experience for Class 11 and 12 students, supporting both conceptual mastery and exam readiness.
 
 # FudgeMaster Mind Map Structure (Class 12 Realigned for Navigation)
@@ -235,3 +298,78 @@ FudgeMaster (Root)
 │   └── AdjustMania (Adjustments)
 │       ├── Types
 │       └── Application
+
+## Expanded Features & Details
+
+### 1. Sample Questions & Common Mistakes for Each Module
+For every module, include:
+- Example MCQs, short answer, and case study questions.
+- Common mistakes (e.g., misclassification of accounts, calculation errors, missing narrations).
+- Solutions and explanations for each question.
+
+### 2. Real-World Example & Case Study
+- **Partnership Accounts:**
+  - Scenario: "A, B, and C start a partnership with capitals of ₹50,000, ₹30,000, and ₹20,000. They agree to share profits in the ratio 2:2:1. Calculate each partner’s share if the profit is ₹25,000."
+    - Solution: A = ₹10,000, B = ₹10,000, C = ₹5,000.
+    - *Common mistake:* Incorrect ratio application.
+
+  - Scenario: "X and Y enter a partnership. X invests ₹1,00,000 and Y invests ₹50,000. They agree to share profits equally. Calculate the profit share for each if the total profit is ₹30,000."
+    - Solution: X = ₹15,000, Y = ₹15,000.
+    - *Common mistake:* Forgetting to divide equally despite unequal capital.
+
+- **Company Accounts:**
+  - Scenario: "ABC Ltd. issues 1,000 shares at ₹10 each, payable ₹5 on application and ₹5 on allotment. Record the entries."
+    - Solution: Application and allotment entries with correct amounts and narration.
+    - *Common mistake:* Missing narration or incorrect amount allocation.
+
+  - Scenario: "XYZ Pvt Ltd. forfeits 100 shares issued at a premium of ₹2, ₹5 called up, and ₹7 paid. Record the journal entry for forfeiture."
+    - Solution: Correct journal entry showing share capital, calls in arrears, and forfeiture account.
+    - *Common mistake:* Incorrect calculation of forfeited amount.
+
+### 3. Custom Transaction Simulation (Example)
+- **Scenario:** "Paid electricity bill ₹2,000 in cash."
+  - Journal Entry: Electricity Expenses A/c Dr. ₹2,000 | To Cash A/c ₹2,000
+  - System Feedback: Checks for correct accounts, amount, and narration.
+  - *Common mistake:* Using Bank A/c instead of Cash A/c.
+
+- **Scenario:** "Received ₹15,000 from A in full settlement of his account of ₹18,000."
+  - Journal Entry: Cash A/c Dr. ₹15,000 | To A's Account ₹15,000
+  - System Feedback: Validates discount allowed if any, and correct account usage.
+  - *Common mistake:* Incorrectly posting the discount or not recording it.
+
+### 4. Table Format (Filled Example)
+- **Cash Book (Single Column):**
+| Dr. | Receipts      | L.F. | Amount ₹ | Cr. | Payments   | L.F. | Amount ₹ |
+|-----|--------------|------|----------|-----|------------|------|----------|
+|     | Balance b/d  |      | 10,000   |     | Rent       |      | 2,000    |
+|     | Sales        |      | 5,000    |     | Salary     |      | 1,500    |
+|     |              |      |          |     | Balance c/d|      | 11,500   |
+
+- **Ledger (Example Account: Cash Account):**
+| Dr. Date | Dr. Particulars | Dr. J.F. | Dr. Amount | Cr. Date | Cr. Particulars | Cr. J.F. | Cr. Amount |
+|----------|-----------------|----------|------------|----------|-----------------|----------|------------|
+| 01/04/23 | Balance b/d     |          | 10,000     |          |                 |          |            |
+| 02/04/23 | Sales           | 101      | 5,000      |          |                 |          |            |
+| 05/04/23 | Rent            | 102      | 2,000      |          |                 |          |            |
+|          |                 |          |            | 10/04/23 | Balance c/d     |          | 13,000     |
+
+### 5. Adaptive Feedback (Example)
+- "You scored 60% in Error Rectification. Review the Error Rectification module and retry the quiz. Focus on types of errors and correction methods."
+- "You have a strong grasp of Partnership Accounts. Try the advanced case studies for deeper understanding."
+
+### 6. Gamification (Example)
+- "You completed 5 consecutive days of practice! Streak unlocked: Ledger Legend."
+- "Top 10 leaderboard: See how you rank among your peers."
+- "Daily Challenge: Complete 20 MCQs on Financial Statements with 80% accuracy to earn a bonus XP."
+
+### 7. Accessibility (Example)
+- "Press Tab to navigate between modules. High-contrast mode available in settings."
+- "Screen reader support: All text content is compatible with major screen readers."
+
+### 8. Continuous Improvement (Example)
+- "Submit feedback: 'Add more GST examples.' Update scheduled for next release."
+- "New feature alert: Customizable study plans based on user feedback. Try it in the dashboard."
+
+---
+
+FudgeMaster is committed to providing an inclusive, engaging, and effective learning environment for all CBSE Class 11 and 12 Accountancy students. Through continuous updates, user feedback integration, and adherence to educational best practices, FudgeMaster will remain at the forefront of digital accountancy education.
